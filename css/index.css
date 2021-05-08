@@ -5,7 +5,7 @@ html {
 
 .logo {
 	text-align: center;
-	animation: spin 2s infinite; 
+	animation: spin 4s 2; 
 	padding-top: 20px;
 	padding-bottom: 20px;
 }
@@ -60,7 +60,7 @@ html {
 
 .portfolio {
 	padding: 50px;
-	height: 100%;
+	width: 100%;
 	text-align: center;
 	color: black;
 
@@ -109,7 +109,6 @@ html {
 
 .skills{
 	padding: 50px;
-	height: 100%;
 	text-align: center;
 	color: black;
 	display: block;
