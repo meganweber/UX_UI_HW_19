@@ -59,6 +59,7 @@ html {
 }
 
 .portfolio {
+	display: inline-block;
 	padding: 50px;
 	width: 100%;
 	text-align: center;
@@ -67,7 +68,7 @@ html {
 }
 .column {
 	float: left;
-	width: 30%;
+	width: 31%;
 	margin-bottom: 16px;
 	padding: 10px;
 }
@@ -75,9 +76,10 @@ html {
 .card{
 	margin: 8px;
 	box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
-	height: 450px;
+	height: 500px;
 	padding: 20px;
 	border-radius: 10px;
+	
 }
 
 .container {
@@ -91,14 +93,16 @@ html {
 
 .button {
 	border: 2px solid black;
-	display: inline-block;
+	text-align: center;
 	padding: 10px;
 	color: white;
 	background-color: black;
-	text-align: center;
 	cursor: pointer;
-	width: 100%;
+	width: 80%;
 	border-radius: 10px;
+	
+	
+
 }
 
 .button:hover{
@@ -108,10 +112,11 @@ html {
 }
 
 .skills{
+	display: inline-block;
 	padding: 50px;
+	width: 100%;
 	text-align: center;
 	color: black;
-	display: block;
 }
 
 .footer{
